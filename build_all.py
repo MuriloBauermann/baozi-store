@@ -768,7 +768,7 @@ def create_word_document():
 
     p_link = doc.add_paragraph()
     p_link.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r_link = p_link.add_run("https://github.com/murilobcd/baozi-store")
+    r_link = p_link.add_run("https://github.com/MuriloBauermann/baozi-store")
     r_link.bold = True
     r_link.font.size = Pt(13)
     r_link.font.color.rgb = RGBColor(0x00, 0x66, 0xCC)
